@@ -1,5 +1,5 @@
 const btn = document.querySelector('button');
 
-btn.onclick = function() {
+function myFunction() {
     alert("Hello, world!");
 }
