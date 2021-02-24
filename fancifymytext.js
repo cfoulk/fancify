@@ -16,7 +16,8 @@ moo.onclick = function() {
     document.getElementById("mybox").style.textTransform = "uppercase";
     var str = document.getElementById("mybox").value;
     var parts = str.split(" ");
-    str = parts.join("-Moo"); 
+    str = parts.join("-Moo "); 
+    document.getElementById("mybox").value = str;
 
 }
 
