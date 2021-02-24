@@ -1,7 +1,6 @@
 const btn = document.querySelector('button');
 const btn2 = document.getElementById("button 2");
-
-const slt = document.getElementById("slt");
+const moo = document.getElementById("Moo");
 
 
 btn.onclick = function() {
@@ -13,11 +12,16 @@ btn2.onclick = function() {
     alert("Radio button");
 }
 
+moo.onclick = function() {
+    document.getElementById("mybox").style.textTransform = "uppercase";
+    var str = document.getElementById("mybox").value;
+    var parts = str.split(" ");
+    str = parts.join("-Moo"); 
 
-function changeBox(x) {
+}
 
-    //alert(x);
-    
+
+function changeBox() {
     if(document.getElementById("mybox").style.fontWeight == "normal"){
         document.getElementById("mybox").style.fontWeight = "bold";
         document.getElementById("mybox").style.textDecoration = "underline";
