@@ -1,5 +1,5 @@
-const btn = document.querySelector('button');
-const btn2 = document.querySelector('Radio');
+const btn = document.querySelector('button 1');
+const btn2 = document.querySelector('button 2');
 
 btn.onclick = function() {
     //alert("Hello, world!");
