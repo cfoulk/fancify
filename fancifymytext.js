@@ -1,5 +1,5 @@
 const btn = document.querySelector('button');
-const btn2 = document.querySelector('button 2');
+const btn2 = document.getElementById("button 2");
 
 btn.onclick = function() {
     //alert("Hello, world!");
