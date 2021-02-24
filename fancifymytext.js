@@ -1,6 +1,7 @@
-const btn = document.querySelector('button');
+const btn = document.querySelector('mybutton');
 
 btn.onclick = function() {
-    //alert("Hello, world!");
+    alert("Hello, world!");
+
     document.getElementById("mybox").style.fontSize = "24px";
 }
