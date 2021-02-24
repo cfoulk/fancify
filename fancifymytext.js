@@ -15,12 +15,12 @@ btn2.onclick = function() {
 
 
 function changeBox(x) {
-    if(x = BoringBetty){
+    if(x = "BoringBetty"){
         document.getElementById("mybox").style.fontWeight = "normal";
         document.getElementById("mybox").style.textDecoration = "none";
         document.getElementById("mybox").style.color = "black";
     }
-    if(x = FancySchmancy){
+    if(x = "FancySchmancy"){
         document.getElementById("mybox").style.fontWeight = "bold";
         document.getElementById("mybox").style.textDecoration = "underline";
         document.getElementById("mybox").style.color = "blue";
