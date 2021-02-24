@@ -1,7 +1,11 @@
 const btn = document.querySelector('button');
+const btn2 = document.querySelector('Radio');
 
 btn.onclick = function() {
-    alert("Hello, world!");
-
+    //alert("Hello, world!");
     document.getElementById("mybox").style.fontSize = "24px";
+}
+
+btn2.onclick = function() {
+    alert("Radio button");
 }
