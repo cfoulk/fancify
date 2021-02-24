@@ -2,5 +2,5 @@ const btn = document.querySelector('button');
 
 btn.onclick = function() {
     //alert("Hello, world!");
-    document.getElementById("text").style.fontSize = "24px";
+    document.getElementById("mybox").style.fontSize = "24px";
 }
