@@ -6,6 +6,6 @@ btn.onclick = function() {
     document.getElementById("mybox").style.fontSize = "24px";
 }
 
-function function2() {
+btn2. onclick = function() {
     alert("Radio button");
 }
